@@ -18,6 +18,11 @@
   publish = "dist/"
 
 [[redirects]]
+  from = "/apisix/admin/*"
+  to = "http://139.217.185.221/admin/:splat"
+  status = 200 
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200 
